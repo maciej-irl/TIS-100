@@ -2,6 +2,14 @@
 
 [Get the game](https://www.zachtronics.com/tis-100/)
 
+## Common Labels
+
+* `S` Main loop start
+* `T` Main test
+* `N` Next step, a pre-condition suceeded
+* `C` “Continue”, branch convergence
+* `F` Final instructions
+
 ## Program listing
 
 > **Note**
@@ -55,7 +63,9 @@
 [Program 2](save/40196.2.txt) — 174 / 4 / 14 — “STATE MACHINE”    
 
 ### 41427 Sequence Peak Decetor
-[Program 0](save/41427.0.txt) — Incomplete  
+**Best** — 295 / 5 / 38  
+[Program 0](save/41427.0.txt) — 295 / 7 / 41 — “FAST”    
+[Program 1](save/41427.1.txt) — 461 / 5 / 38 — “MIN NODES”    
 
 ### 42656 Sequence Reverser
 **Best** — 343 / 3 / 10  
