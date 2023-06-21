@@ -4,7 +4,8 @@
 
 ## Program listing
 
-Cycles / Nodes / Instructions
+> **Note**
+> Statistics listed as “Cycles / Nodes / Instructions”
 
 
 ### 00150 Self-Test Diagnostic
