@@ -3,3 +3,6 @@
 [Get the game](https://www.zachtronics.com/tis-100/)
 
 ## Program listing
+
+Cycles / Nodes / Instructions
+

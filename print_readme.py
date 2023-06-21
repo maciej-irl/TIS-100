@@ -37,18 +37,43 @@ def find_name(save: Path) -> str | None:
         return match[1]
 
 
+def parse_save_dat() -> dict[str, int]:
+    out = {}
+    for line in Path("save.dat").read_text().splitlines():
+        key, value = line.split(" = ")
+        if key != "TutorialSeen":
+            out[key] = int(value)
+    return out
+
+
+def cin_tuple(save_dat, key) -> str | None:
+    if key + ".Cycles" in save_dat:
+        cycles = save_dat[key + ".Cycles"]
+        nodes = save_dat[key + ".Nodes"]
+        insts = save_dat[key + ".Instructions"]
+        return f"{cycles} / {nodes} / {insts}"
+
+
 def print_listing():
+    save_dat = parse_save_dat()
     for segment, segment_name in SEGMENTS.items():
         print()
-        print(f"### {segment}: {segment_name}")
+        print(f"### {segment} {segment_name}")
+
+        if best_cin := cin_tuple(save_dat, f"Best.{segment}"):
+            print(f"**Best** — {best_cin}  ")
 
         saves = sorted(Path("save/").glob(f"{segment}.*.txt"))
         for save in saves:
             program = save.stem.split(".")[1]
-            if name := find_name(save):
-                print(f"[Program {program}]({save}) “{name}”  ")
+            line = f"[Program {program}]({save})"
+            if cin := cin_tuple(save_dat, f"Last.{segment}.{program}"):
+                line += f" — {cin}"
             else:
-                print(f"[Program {program}]({save})  ")
+                line += f" — Incomplete"
+            if name := find_name(save):
+                line += f" — “{name}”  "
+            print(line + "  ")
 
         if not saves:
             print("**To Be Solved**")
