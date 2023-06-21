@@ -1,5 +1,5 @@
 @0
-
+## STATE MACHINE
 
 @1
  C0: MOV UP, ACC

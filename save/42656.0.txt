@@ -1,5 +1,5 @@
 @0
-
+##SEP READ & WRITE
 
 @1
 MOV 0, RIGHT

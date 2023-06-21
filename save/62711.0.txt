@@ -38,7 +38,7 @@ MOV ACC LEFT
 
 
 @6
-
+##RESET BTWN IXS
 
 @7
 MOV UP DOWN
