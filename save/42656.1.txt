@@ -1,0 +1,32 @@
+@0
+
+
+@1
+MOV 0, RIGHT
+ S: MOV UP, ACC
+JEZ REV
+MOV ACC, RIGHT
+JMP S
+ REV:MOV RIGHT,ACC
+MOV ACC, DOWN
+JGZ REV
+
+@2
+
+
+@3
+
+
+@4
+MOV UP, DOWN
+
+@5
+
+
+@6
+
+
+@7
+MOV LEFT, DOWN
+
+@8

@@ -1,0 +1,45 @@
+@0
+
+
+@1
+
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+MOV ACC, DOWN
+ADD 1
+
+@6
+
+
+@7
+
+
+@8
+MOV 1, RIGHT
+MOV 3, RIGHT
+
+@9
+MOV 0, DOWN
+MOV UP, DOWN
+MOV 15, ACC
+JRO LEFT
+# COUNT LESS
+# SAVING A TEST
+SUB 1
+MOV 3, DOWN
+ CNT: MOV 0, DOWN
+MOV 3, DOWN
+SUB 1
+JGZ CNT
+MOV -1, DOWN
+
+@10

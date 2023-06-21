@@ -1,0 +1,39 @@
+@0
+
+
+@1
+MOV UP, DOWN
+
+@2
+
+
+@3
+
+
+@4
+
+
+@5
+MOV UP, ACC
+MOV ACC, RIGHT
+MOV ACC, DOWN
+
+@6
+MOV LEFT, DOWN
+
+@7
+MOV RIGHT, RIGHT
+
+@8
+MOV UP, ACC
+JEZ OUT
+SUB RIGHT
+JLZ UPD
+ UPD:
+ OUT: SWP#ACC IS 0
+MOV ACC, DOWN
+
+@9
+
+
+@10

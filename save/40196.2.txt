@@ -1,0 +1,41 @@
+@0
+
+
+@1
+ C0: MOV UP, ACC
+MOV 0, DOWN
+JNZ C0
+ C1: MOV UP, ACC
+MOV 0, DOWN
+JNZ C0
+ C2: MOV UP, ACC
+JNZ COUT
+MOV 1, DOWN
+JMP C2
+ COUT: MOV 0, DOWN
+
+@2
+
+
+@3
+
+
+@4
+MOV UP, DOWN
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+MOV UP, RIGHT
+
+@9
+MOV LEFT, DOWN
+
+@10

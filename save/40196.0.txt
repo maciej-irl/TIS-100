@@ -1,0 +1,42 @@
+@0
+
+
+@1
+ S: MOV UP, ACC
+JGZ RST
+SWP
+ADD 1
+SAV
+SUB 3
+JLZ ZRO
+MOV 1, DOWN
+JMP S
+ RST: MOV 0, ACC
+SAV
+ ZRO: MOV 0, DOWN
+
+@2
+
+
+@3
+
+
+@4
+MOV UP, DOWN
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+MOV UP, RIGHT
+
+@9
+MOV LEFT, DOWN
+
+@10
