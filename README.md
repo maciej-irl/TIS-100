@@ -18,11 +18,13 @@
 
 ### 00150 Self-Test Diagnostic
 **Best** — 83 / 8 / 8  
-[Program 0](save/00150.0.txt) — 83 / 8 / 8  
+[Program 0](save/00150.0.txt) — 83 / 8 / 8 — “TRIVIAL”    
+[Program 1](save/00150.1.txt) — 100001 / 8 / 22 — “EXACT 100001 CYC”    
 
 ### 10981 Signal Amplifier
-**Best** — 160 / 4 / 6  
-[Program 0](save/10981.0.txt) — 160 / 4 / 6  
+**Best** — 84 / 4 / 6  
+[Program 0](save/10981.0.txt) — 160 / 4 / 6 — “OBVIOUS”    
+[Program 1](save/10981.1.txt) — 84 / 6 / 11 — “PARALLEL”    
 
 ### 20176 Differential Converter
 **Best** — 203 / 5 / 10  
