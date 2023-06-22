@@ -95,7 +95,8 @@
 [Program 0](save/53897.0.txt) — 5159 / 5 / 20  
 
 ### 60099 Signal Window Filter
-**To Be Solved**
+**Best** — 1059 / 6 / 35  
+[Program 0](save/60099.0.txt) — 1059 / 6 / 35 — “SIMPLE ONE”    
 
 ### 61212 Signal Divider
 **To Be Solved**
@@ -107,3 +108,7 @@
 
 ### 63534 Sequence Sorter
 **To Be Solved**
+
+### 70601 Stored Image Decoder
+**Best** — 6551 / 6 / 32  
+[Program 0](save/70601.0.txt) — 6551 / 6 / 32 — “WAY TOO SIMPLE”    

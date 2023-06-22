@@ -28,7 +28,7 @@ SEGMENTS = {
     "61212": "Signal Divider",
     "62711": "Sequence Indexer",
     "63534": "Sequence Sorter",
-    # TODO: What's the last one.
+    "70601": "Stored Image Decoder",
 }
 
 
@@ -41,7 +41,7 @@ def parse_save_dat() -> dict[str, int]:
     out = {}
     for line in Path("save.dat").read_text().splitlines():
         key, value = line.split(" = ")
-        if key != "TutorialSeen":
+        if key not in ("TutorialSeen", "SynchronizationSeen"):
             out[key] = int(value)
     return out
 
