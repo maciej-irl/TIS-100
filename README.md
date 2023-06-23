@@ -102,7 +102,8 @@
 [Program 0](save/60099.0.txt) — 1059 / 6 / 35 — “SIMPLE ONE”    
 
 ### 61212 Signal Divider
-**To Be Solved**
+**Best** — 6377 / 6 / 31  
+[Program 0](save/61212.0.txt) — 6377 / 6 / 31 — “WORKS”    
 
 ### 62711 Sequence Indexer
 **Best** — 2521 / 6 / 27  
