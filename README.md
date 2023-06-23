@@ -55,8 +55,9 @@
 [Program 0](save/32050.0.txt) — 272 / 4 / 15  
 
 ### 33762 Interrupt Handler
-**Best** — 239 / 9 / 43  
-[Program 0](save/33762.0.txt) — 277 / 9 / 43  
+**Best** — 169 / 9 / 43  
+[Program 0](save/33762.0.txt) — 277 / 9 / 43 — “FIRST CRACK”    
+[Program 1](save/33762.1.txt) — 169 / 10 / 44 — “FEWER CYCLES”    
 
 ### 40196 Signal Pattern Detector
 **Best** — 174 / 4 / 14  
