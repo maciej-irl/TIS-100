@@ -41,7 +41,7 @@ def parse_save_dat() -> dict[str, int]:
     out = {}
     for line in Path("save.dat").read_text().splitlines():
         key, value = line.split(" = ")
-        if key not in ("TutorialSeen", "SynchronizationSeen"):
+        if key not in ("TutorialSeen", "SynchronizationSeen", "Options.Fullscreen"):
             out[key] = int(value)
     return out
 

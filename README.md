@@ -91,8 +91,10 @@
 **To Be Solved**
 
 ### 53897 Histogram Viewer
-**Best** — 5159 / 5 / 20  
-[Program 0](save/53897.0.txt) — 5159 / 5 / 20  
+**Best** — 3200 / 4 / 20  
+[Program 0](save/53897.0.txt) — 5159 / 5 / 20 — “NODE TO MIND X”    
+[Program 1](save/53897.1.txt) — 4090 / 4 / 23 — “NODE TO FEED Y”    
+[Program 2](save/53897.2.txt) — 3228 / 4 / 20 — “JRO POWER”    
 
 ### 60099 Signal Window Filter
 **Best** — 1059 / 6 / 35  
