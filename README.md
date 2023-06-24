@@ -89,7 +89,8 @@
 [Program 0](save/51781.0.txt) — 1733 / 3 / 15  
 
 ### 52544 Exposure Mask Viewer
-**To Be Solved**
+**Best** — 1079 / 6 / 52  
+[Program 0](save/52544.0.txt) — 1079 / 6 / 52 — “UNROLLED”    
 
 ### 53897 Histogram Viewer
 **Best** — 2587 / 4 / 18  
