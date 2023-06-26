@@ -33,7 +33,8 @@
 
 ### 21340 Signal Comparator
 **Best** — 278 / 6 / 20  
-[Program 0](save/21340.0.txt) — 278 / 6 / 20  
+[Program 0](save/21340.0.txt) — 278 / 6 / 20 — “JUMPY VERSION”    
+[Program 1](save/21340.1.txt) — 325 / 6 / 32 — “UNCODITIONAL”    
 
 ### 22280 Signal Multiplexer
 **Best** — 265 / 5 / 16  
