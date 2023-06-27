@@ -122,5 +122,5 @@
 [Program 0](save/70601.0.txt) — 6551 / 6 / 32 — “WAY TOO SIMPLE”    
 
 ### UNKNOWN Illegal Eagle
-**Best** — 620 / 7 / 47  
-[Program 0](save/UNKNOWN.0.txt) — 620 / 7 / 47  
+**Best** — 620 / 5 / 45  
+[Program 0](save/UNKNOWN.0.txt) — 620 / 5 / 45  
