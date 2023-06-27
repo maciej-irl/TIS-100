@@ -29,6 +29,8 @@ SEGMENTS = {
     "62711": "Sequence Indexer",
     "63534": "Sequence Sorter",
     "70601": "Stored Image Decoder",
+    # Other
+    "UNKNOWN": "Illegal Eagle",
 }
 
 
