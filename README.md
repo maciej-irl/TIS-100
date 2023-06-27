@@ -114,7 +114,8 @@
 
 ### 63534 Sequence Sorter
 **Best** — 2648 / 6 / 64  
-[Program 0](save/63534.0.txt) — 2648 / 6 / 64  
+[Program 0](save/63534.0.txt) — 2648 / 6 / 64 — “CHEATER”    
+[Program 1](save/63534.1.txt) — 2714 / 6 / 64 — “DON'T ASK HOW”    
 
 ### 70601 Stored Image Decoder
 **Best** — 6551 / 6 / 32  
