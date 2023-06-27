@@ -113,7 +113,8 @@
 [Program 1](save/62711.1.txt) — Incomplete  
 
 ### 63534 Sequence Sorter
-**To Be Solved**
+**Best** — 2648 / 6 / 64  
+[Program 0](save/63534.0.txt) — 2648 / 6 / 64  
 
 ### 70601 Stored Image Decoder
 **Best** — 6551 / 6 / 32  
