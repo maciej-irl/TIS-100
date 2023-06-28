@@ -108,9 +108,10 @@
 [Program 0](save/61212.0.txt) — 6377 / 6 / 31 — “WORKS”    
 
 ### 62711 Sequence Indexer
-**Best** — 2521 / 6 / 27  
+**Best** — 1042 / 6 / 27  
 [Program 0](save/62711.0.txt) — 2521 / 6 / 27 — “RESET BTWN IXS”    
-[Program 1](save/62711.1.txt) — Incomplete  
+[Program 1](save/62711.1.txt) — 1042 / 6 / 37 — “MUCH SMARTER”    
+[Program 2](save/62711.2.txt) — 1062 / 6 / 31 — “COMPROMISE”    
 
 ### 63534 Sequence Sorter
 **Best** — 2648 / 6 / 64  
