@@ -1,7 +1,8 @@
 from pathlib import Path
 import re
+import sys
 
-SEGMENTS = {
+MAIN_SEGMENTS = {
     # Row 1
     "00150": "Self-Test Diagnostic",
     "10981": "Signal Amplifier",
@@ -33,6 +34,15 @@ SEGMENTS = {
     "UNKNOWN": "Illegal Eagle",
 }
 
+TISNET_SEGMENTS = {
+    # Row 1
+    "NEXUS.01.526.6": "Sequence Merger",
+    "NEXUS.01.874.8": "Integer Series Calcuator",
+    "NEXUS.02.981.2": "Sequence Range Limiter",
+    "NEXUS.03.176.9": "Signal Error Corrector",
+    "NEXUS.04.340.5": "Subsequence Extractor",
+}
+
 
 def find_name(save: Path) -> str | None:
     if match := re.search(r"##\s*(.+)", save.read_text()):
@@ -56,9 +66,9 @@ def cin_tuple(save_dat, key) -> str | None:
         return f"{cycles} / {nodes} / {insts}"
 
 
-def print_listing():
+def print_listing(segments):
     save_dat = parse_save_dat()
-    for segment, segment_name in SEGMENTS.items():
+    for segment, segment_name in segments.items():
         print()
         print(f"### {segment} {segment_name}")
 
@@ -67,7 +77,7 @@ def print_listing():
 
         saves = sorted(Path("save/").glob(f"{segment}.*.txt"))
         for save in saves:
-            program = save.stem.split(".")[1]
+            program = save.stem.split(".")[-1]
             line = f"[Program {program}]({save})"
             if cin := cin_tuple(save_dat, f"Last.{segment}.{program}"):
                 line += f" — {cin}"
@@ -83,7 +93,10 @@ def print_listing():
 
 def main():
     print(Path("readme_intro.md").read_text(), end="")
-    print_listing()
+    print_listing(MAIN_SEGMENTS)
+    print()
+    print("## TIS-NET Segments")
+    print_listing(TISNET_SEGMENTS)
 
 
 if __name__ == "__main__":

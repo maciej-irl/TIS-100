@@ -5,12 +5,13 @@
 ## Common Labels
 
 * `S` Main loop start
+* `L` Inner loop
 * `T` Main test
 * `N` Next step, a pre-condition suceeded
 * `C` “Continue”, branch convergence
 * `F` Final instructions
 
-## Program listing
+## TIS-100 Segments
 
 > **Note**
 > Statistics listed as “Cycles / Nodes / Instructions”

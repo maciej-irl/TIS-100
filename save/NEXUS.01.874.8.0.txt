@@ -1,0 +1,37 @@
+@0
+## NAIVE
+
+@1
+MOV UP ACC
+ L: MOV 4 DOWN
+MOV ACC DOWN
+SUB 1
+JGZ L
+MOV 1 DOWN
+
+@2
+
+
+@3
+
+
+@4
+ L: JRO UP
+MOV ACC DOWN
+MOV 0 ACC
+JMP L
+ADD UP
+
+@5
+
+
+@6
+
+
+@7
+
+
+@8
+MOV UP DOWN
+
+@9

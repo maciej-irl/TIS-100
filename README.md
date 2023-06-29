@@ -5,12 +5,13 @@
 ## Common Labels
 
 * `S` Main loop start
+* `L` Inner loop
 * `T` Main test
 * `N` Next step, a pre-condition suceeded
 * `C` “Continue”, branch convergence
 * `F` Final instructions
 
-## Program listing
+## TIS-100 Segments
 
 > **Note**
 > Statistics listed as “Cycles / Nodes / Instructions”
@@ -125,3 +126,22 @@
 ### UNKNOWN Illegal Eagle
 **Best** — 620 / 5 / 45  
 [Program 0](save/UNKNOWN.0.txt) — 620 / 5 / 45  
+
+## TIS-NET Segments
+
+### NEXUS.01.526.6 Sequence Merger
+**To Be Solved**
+
+### NEXUS.01.874.8 Integer Series Calcuator
+**Best** — 6035 / 3 / 12  
+[Program 0](save/NEXUS.01.874.8.0.txt) — 6035 / 3 / 12 — “NAIVE”    
+[Program 1](save/NEXUS.01.874.8.1.txt) — Incomplete — “PRE-COMPUTED”    
+
+### NEXUS.02.981.2 Sequence Range Limiter
+**To Be Solved**
+
+### NEXUS.03.176.9 Signal Error Corrector
+**To Be Solved**
+
+### NEXUS.04.340.5 Subsequence Extractor
+**To Be Solved**
